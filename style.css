@@ -1,0 +1,40 @@
+body{
+   background-color:#FFDCF9;
+   text-align:center;
+}
+
+h1{
+ font-family: 'Crafty Girls', sans-serif; }
+
+ h2{
+ font-family: 'Girls are Weird', sans-serif;
+                                                
+ }
+                 
+ p{
+ font-family: 'Phank', sans-serif;
+                                                
+ }
+
+ ul{
+   font-family: 'Phank', sans-serif;
+ }
+
+ .titleBaby{
+   font-family: 'Crafty Girls', sans-serif;
+   color: #DF51A2;
+   font-size:medium;
+   text-align:left;
+  background-color:#FFBDE6;
+}
+
+.welcome{
+  color: #519adf;
+  animation: cutePulsely 2s infinite;
+}
+
+@keyframes cutePulsely {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.04);}
+  100% {transform: scale(1);}
+}
