@@ -86,15 +86,15 @@ h1{
 
 @keyframes cutePulsely {
   0% {transform: scale(1);}
-  50% {transform: scale(1.04);}
+  50% {transform: scale(1.05);}
   100% {transform: scale(1);}
 }
 
 /* what nail menu would you like today */
 .today{
-  font-family: 'Phank', sans-serif;
+  font-family: 'phank', sans-serif;
 font-size:25px;
-  color: #ffeef3;
+  color: #fcfafb;
 }
 
 /* menu buttons */
@@ -104,9 +104,9 @@ font-size:25px;
   justify-content:center;
   align-items:center;
   gap: 3px;
-  margin-top: -50px;
-  width: 110%;
-  scale: 0.7;
+  margin: -30px auto 0 auto;
+  width:100%;
+  max-width: 500px;
 }
 
 .menu-link-btn{
@@ -117,8 +117,40 @@ font-size:25px;
   font-family: 'Crafty Girls', sans-serif;
   font-size: 30px;
   color: #DF51A2;
-  width:250px;
-  scale:0.6;
+  width:50%;
+  margin-bottom: 15%;
+}
+
+.menu-link-btn img{
+  display:block;
+  margin:0 auto 25px auto;
+  height: 250px;           
+  max-width:100%;
+  width:auto;
+  margin-top: 25%;
+}
+
+
+.menu-link-btn img[src*="frozen"]{
+  transform: scale(0.8);
+}
+
+@media (max-width: 480px) {
+  .choice-links {
+    margin-top: 20px;      
+    gap: 5px;
+  }
+  .menu-link-btn {
+    font-size: 20px;
+    margin-bottom: 5%;       
+  }
+  .menu-link-btn img {
+    height: 100px;          
+  }
+  .menu-link-btn:active img {
+    transform: scale(1.15); /* Pops the icon up 15% bigger on tap */
+    transition: transform 0.1s ease; /* Makes the pop smooth, not robotic */
+  }
 }
 
 
