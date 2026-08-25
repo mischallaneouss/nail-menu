@@ -1,4 +1,144 @@
-/* --- EVERYTHING BELOW HERE IS FIXED FOR MOBILE --- */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+   background-color:#FFDCF9;
+   text-align:center;
+}
+a{
+  text-decoration: none;
+}
+h1{
+ font-family: 'Crafty Girls', sans-serif; }
+
+ h2{
+ font-family: 'Girls are Weird', sans-serif;
+                                                
+ }
+                 
+ p{
+ font-family: 'Phank', sans-serif;
+                                                
+ }
+
+ ul{
+   font-family: 'Phank', sans-serif;
+ }
+/* misechallaneouss title */
+ #title{
+   font-family: 'Crafty Girls', sans-serif;
+   color: #DF51A2;
+   font-size:medium;
+   text-align:left;
+  background-color:#FFBDE6;
+  padding: 10px;
+}
+/* welcome to the nail parlour */
+.everything{
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+      background-image: 
+    linear-gradient( #ffd5efcb, #ffd5ef),
+    url('neo.jpg');
+  background-clip: content-box, padding-box;
+  padding: 15px; 
+  background-size: auto, cover;
+  background-repeat: no-repeat, repeat;
+  margin-top:25px;
+}
+
+.stripes{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  object-fit:cover;
+
+}
+
+.welcome-container{ background-color: #d2b69a;
+  margin: 20px auto 0 auto;
+  width: 90%;
+  max-width: 800px;
+  height:150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.welcome{
+  color: #ffd0e1;
+  animation: cutePulsely 2s infinite;
+  margin-top: 10px;
+  position:relative;
+}
+
+@keyframes cutePulsely {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.04);}
+  100% {transform: scale(1);}
+}
+
+/* what nail menu would you like today */
+.today{
+  font-family: 'phank', sans-serif;
+font-size:25px;
+  color: #fcfafb;
+}
+
+/* menu buttons */
+.choice-links{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  gap: 3px;
+  margin: -30px auto 0 auto;
+  width:100%;
+  max-width: 500px;
+}
+
+.menu-link-btn{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Crafty Girls', sans-serif;
+  font-size: 30px;
+  color: #DF51A2;
+  width:50%;
+  margin-bottom: 15%;
+  transition: transform 0.2s ease-in-out, scale 0.2s ease-in-out;
+}
+
+.menu-link-btn img{
+  display:block;
+  margin:0 auto 25px auto;
+  height: 250px;           
+  max-width:100%;
+  width:auto;
+  margin-top: 25%;
+}
+
+
+.menu-link-btn img[src*="frozen"]{
+  transform: scale(0.8);
+}
+
+@media (max-width: 480px) {
+ /* --- EVERYTHING BELOW HERE IS FIXED FOR MOBILE --- */
 
 @media (max-width: 480px) {
   .choice-links {
@@ -55,9 +195,6 @@
   /* Yellow and pastel pink neon aura burst */
   filter: drop-shadow(0 0 12px #fff987) drop-shadow(0 0 24px rgba(255, 220, 249, 0.8));
 }
-
-
-
 }
 
 
