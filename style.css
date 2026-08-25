@@ -81,7 +81,8 @@ h1{
 .welcome{
   color: #ffd0e1;
   animation: cutePulsely 2s infinite;
-  margin-top: 0px;
+  margin-top: 10px;
+  position:relative;
 }
 
 @keyframes cutePulsely {
@@ -147,9 +148,7 @@ font-size:25px;
   .menu-link-btn img {
     height: 100px;          
   }
-  .menu-link-btn:active img {
-    transform: scale(1.15); /* Pops the icon up 15% bigger on tap */
-    transition: transform 0.1s ease; /* Makes the pop smooth, not robotic */
-  }
+
 }
+
 
