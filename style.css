@@ -103,7 +103,7 @@ font-size:25px;
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  gap: 4px;
+  gap: 3px;
   margin-top: -50px;
   width: 110%;
   scale: 0.7;
@@ -118,7 +118,7 @@ font-size:25px;
   font-size: 30px;
   color: #DF51A2;
   width:250px;
-  scale:0.7;
+  scale:0.6;
 }
 
 
