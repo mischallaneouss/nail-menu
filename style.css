@@ -86,7 +86,7 @@ h1{
 
 @keyframes cutePulsely {
   0% {transform: scale(1);}
-  50% {transform: scale(1.05);}
+  50% {transform: scale(1.04);}
   100% {transform: scale(1);}
 }
 
@@ -152,5 +152,4 @@ font-size:25px;
     transition: transform 0.1s ease; /* Makes the pop smooth, not robotic */
   }
 }
-
 
