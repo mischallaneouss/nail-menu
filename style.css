@@ -1,8 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 body{
    background-color:#FFDCF9;
    text-align:center;
 }
-
+a{
+  text-decoration: none;
+}
 h1{
  font-family: 'Crafty Girls', sans-serif; }
 
@@ -19,18 +26,61 @@ h1{
  ul{
    font-family: 'Phank', sans-serif;
  }
-
- .titleBaby{
+/* misechallaneouss title */
+ #title{
    font-family: 'Crafty Girls', sans-serif;
    color: #DF51A2;
    font-size:medium;
    text-align:left;
   background-color:#FFBDE6;
+  padding: 10px;
+}
+/* welcome to the nail parlour */
+.everything{
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+      background-image: 
+    linear-gradient( #ffd5efcb, #ffd5ef),
+    url('neo.jpg');
+  background-clip: content-box, padding-box;
+  padding: 15px; 
+  background-size: auto, cover;
+  background-repeat: no-repeat, repeat;
+}
+
+.stripes{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  object-fit:cover;
+
+}
+
+.welcome-container{ background-color: #d2b69a;
+  margin: 20px auto 0 auto;
+  width: 90%;
+  max-width: 800px;
+  height:150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 .welcome{
-  color: #519adf;
+  color: #ffd0e1;
   animation: cutePulsely 2s infinite;
+  margin-top: 0px;
 }
 
 @keyframes cutePulsely {
@@ -38,3 +88,34 @@ h1{
   50% {transform: scale(1.04);}
   100% {transform: scale(1);}
 }
+
+/* what nail menu would you like today */
+.today{
+  font-family: 'Phank', sans-serif;
+font-size:25px;
+  color: #ffeef3;
+}
+
+/* menu buttons */
+.choice-links{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.menu-link-btn{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Crafty Girls', sans-serif;
+  font-size: 30px;
+  color: #DF51A2;
+  scale:0.7;
+  width:250px;
+}
+
